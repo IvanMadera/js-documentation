@@ -1,0 +1,22 @@
+{
+  "name": "js-documentation",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Ivan Madera",
+    "email": "ivan.madera1999@gmail.com"
+  },
+  "repository": "/js-documentation",
+  "scripts": {
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^3.1.1"
+  }
+}
